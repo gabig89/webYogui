@@ -1,0 +1,83 @@
+body {
+	background-color:#D5D5D5;
+	font-family: verdana;
+	font-size: 12px;
+}
+#contenedor {
+	width:  1500px;
+}
+header {
+	background-color:#FFF88F;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding: 25px;
+}
+.titulop{
+	font-family: 'Lobster Two', cursive;
+	font-weight:bold ;
+	text-align: center;
+	color: #C66FBE ;
+	font-size: 50px;
+}
+nav {
+	background-color: #C66FBE;
+	padding: 5px;
+	line-height: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+nav a{
+	border-style: solid;
+	border-color: grey;
+	color: white;
+	background-color: grey;
+	text-decoration: none;/*le saca el subrayado que viene por default*/
+}
+nav a:hover{
+	background-color: blue;
+	color: white;
+}
+section{
+	width:1250px;
+	height: 800px;
+	background-color:#F79EC5;
+	float:left;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+#section2{
+	width:1250px;	
+	height: 1900px;
+	background-color:#F79EC5;
+	float:left;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+aside{
+	width:155px;
+	height: 800px;
+	margin-left: 15px;
+	background-color:grey;
+	float:left;
+	padding: 10px;
+}
+footer {
+	clear:both;
+	background-color:#FFF88F;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding: 10px;
+}
+.resaltado{
+	background-color: black;
+	color: white ;
+	font-style: italic;
+}
+.boton{
+	background-color: blue;
+}
